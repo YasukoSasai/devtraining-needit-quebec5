@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Demo table" max_length="40" name="x_58872_needit_table" sizeclass="2" type="collection">
+        <element label="Date time field" mandatory="true" max_length="40" name="date_time_field" type="glide_date_time"/>
+        <element label="List field" max_length="4000" name="list_field" type="glide_list"/>
+        <element default="User Id" label="User Id" mandatory="true" max_length="40" name="user_id" type="string"/>
+        <element label="User Name" mandatory="true" max_length="32" name="user_name" reference="sys_user" type="reference"/>
+    </element>
+</database>
