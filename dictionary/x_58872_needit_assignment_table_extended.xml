@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Assignment table - extended" max_length="40" name="x_58872_needit_assignment_table_extended" sizeclass="1" type="collection">
+        <element label="Due Date" mandatory="true" max_length="40" name="u_due_date_3" type="due_date"/>
+        <element label="References" max_length="40" name="u_file_attachment_4" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Due Date and Time" mandatory="true" max_length="40" name="u_glide_date_time_5" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" default="dc46c191078630103070fdac7c1ed05a" label="Assigned By" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Assignment Name" mandatory="true" max_length="40" name="u_string_6" type="string"/>
+    </element>
+</database>
